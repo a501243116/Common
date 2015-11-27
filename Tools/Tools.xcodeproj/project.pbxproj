@@ -51,6 +51,7 @@
 		845A428D1C084CDB009D54FD /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845A42911C084CDB009D54FD /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
 		845A42931C084CDB009D54FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845A42A01C0854AA009D54FD /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		845A42601C084CDB009D54FD = {
 			isa = PBXGroup;
 			children = (
+				845A429F1C0853EF009D54FD /* Common */,
 				845A426B1C084CDB009D54FD /* Tools */,
 				845A42851C084CDB009D54FD /* ToolsTests */,
 				845A42901C084CDB009D54FD /* ToolsUITests */,
@@ -138,6 +140,14 @@
 				845A42931C084CDB009D54FD /* Info.plist */,
 			);
 			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		845A429F1C0853EF009D54FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				845A42A01C0854AA009D54FD /* Header.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +508,7 @@
 				845A42981C084CDB009D54FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845A42991C084CDB009D54FD /* Build configuration list for PBXNativeTarget "ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				845A429B1C084CDB009D54FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845A429C1C084CDB009D54FD /* Build configuration list for PBXNativeTarget "ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				845A429E1C084CDB009D54FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
